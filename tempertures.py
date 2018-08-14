@@ -25,9 +25,6 @@ while choice != "Q":
     elif choice == "F":
         Fahrenheit_to_Celsius()
         print("results: {;.2f} C".format(celsius))
-        # TODO: Write this section to convert F to C and display the result
-        # Hint: celsius = 5 / 9 * (fahrenheit - 32)
-        # Remove the "pass" statement when you are done. It's a placeholder.
         pass
     else:
         print("Invalid option")
